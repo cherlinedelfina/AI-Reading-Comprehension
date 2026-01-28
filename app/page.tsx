@@ -173,11 +173,11 @@ export default function Home() {
                 {!result && (
                   <div className="mt-4 flex flex-wrap gap-2">
                     <Button
-                      onClick={checkAnswer}
-                      disabled={grading || answer.trim().length < 5 || evidence.selected.length === 0}
-                      className="bg-slate-900 text-white hover:bg-slate-800 border-slate-900"
-                    >
-                      {grading ? "Checking…" : "Check answer"}
+                        onClick={checkAnswer}
+                        disabled={grading || answer.trim().length < 5 || evidence.selected.length === 0}
+                        className="bg-slate-900 hover:bg-slate-800 !text-black border-slate-900"
+                        >
+                        {grading ? "Checking…" : "Check answer"}
                     </Button>
 
                     <Button onClick={resetQuestionState} disabled={grading}>
@@ -211,10 +211,11 @@ export default function Home() {
                         <>
                           <Button
                             onClick={retry}
-                            className="bg-slate-900 text-white hover:bg-slate-800 border-slate-900"
-                          >
+                            className="bg-slate-900 hover:bg-slate-800 !text-black border-slate-900"
+                            >
                             Try again
-                          </Button>
+                        </Button>
+
                           <Button onClick={() => setShowExpected(true)}>
                             Show a strong expected answer
                           </Button>
