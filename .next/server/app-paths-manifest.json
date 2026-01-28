@@ -1,0 +1,5 @@
+{
+  "/api/grade-answer/route": "app/api/grade-answer/route.js",
+  "/api/generate-questions/route": "app/api/generate-questions/route.js",
+  "/page": "app/page.js"
+}
