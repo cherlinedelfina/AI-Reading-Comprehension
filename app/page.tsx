@@ -175,7 +175,7 @@ export default function Home() {
                     <Button
                       onClick={checkAnswer}
                       disabled={grading || answer.trim().length < 5 || evidence.selected.length === 0}
-                      className="bg-slate-900 text-black hover:bg-slate-800 text-white"
+                      className="bg-slate-900 text-black hover:bg-slate-800"
                     >
                       {grading ? "Checking…" : "Check answer"}
                     </Button>
@@ -211,7 +211,7 @@ export default function Home() {
                         <>
                           <Button
                             onClick={retry}
-                            className="bg-slate-900 text-black hover:bg-slate-800 text-white"
+                            className="bg-slate-900 text-black hover:bg-slate-800"
                           >
                             Try again
                           </Button>
