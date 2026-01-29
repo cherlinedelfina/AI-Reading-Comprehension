@@ -1,6 +1,8 @@
 # AI Reading Comprehension Interface  
 **EdAccelerator Technical Assessment**
 
+live Vercel link: https://ai-reading-comprehension.vercel.app
+
 ## Overview
 This project is a redesigned reading comprehension interface built with **Next.js 14 (App Router)**, **TypeScript**, **Tailwind CSS**, and **AI-generated questions**.
 
